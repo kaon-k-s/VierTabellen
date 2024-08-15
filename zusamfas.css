@@ -1,0 +1,71 @@
+/*Div und Floats*/
+.table-container-float {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #000;
+    width: 270px;
+    padding: 3px;
+    text-align: center;
+    font-size: 1em;
+}
+
+.row-float {
+    display: flex;
+    justify-content: left;
+    gap: 3px;
+}
+
+.header-row-float {
+    font-weight: bold;
+}
+
+.cell-float {
+    border: 1px solid #000;
+    padding: 7px;
+    width: 40px;
+}
+
+.first-cell-float {
+    width: 90px;
+    padding-left: 7px;
+    padding-right: 0;
+    text-align: left;
+}
+
+/*Flexbox*/
+.table-container-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #000;
+    width: 270px;
+    padding: 3px;
+    text-align: center;
+    font-size: 1em;
+}
+
+.row-flex {
+    display: flex;
+    justify-content: left;
+    gap: 3px;
+}
+
+.header-row-flex {
+    font-weight: bold;
+}
+
+.cell-flex {
+    border: 1px solid #000;
+    padding: 7px;
+    width: 40px;
+}
+
+.first-cell-float {
+    width: 90px;
+    padding-left: 7px;
+    padding-right: 0;
+    text-align: left;
+}
+
+
