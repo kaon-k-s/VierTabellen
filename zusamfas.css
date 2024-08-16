@@ -33,6 +33,7 @@
     text-align: left;
 }
 
+
 /*Flexbox*/
 .table-container-flex {
     display: flex;
@@ -61,7 +62,7 @@
     width: 40px;
 }
 
-.first-cell-float {
+.first-cell-flex {
     width: 90px;
     padding-left: 7px;
     padding-right: 0;
@@ -69,3 +70,31 @@
 }
 
 
+/*Grid*/
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 3px;
+    padding: 3px;
+    border: 1px solid #000;
+    width: 275px;
+    font-size: 1em;
+}
+
+.grid-container div {
+    border: 1px solid black;
+    text-align: center;
+    padding: 7px;
+    width: 1fr;
+}
+
+.grid-container .first-cell-grid {
+    width: 1.5fr;
+    padding-left: 7px;
+    padding-right: 7px;
+    text-align: left;
+}
+
+.item-bold {
+    font-weight: bold;
+}
